@@ -16,3 +16,5 @@ let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
 
 " complete color
 highlight Pmenu ctermbg=lightblue ctermfg=white
+
+inoremap jk <Esc>
