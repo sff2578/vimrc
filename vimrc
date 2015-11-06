@@ -18,3 +18,4 @@ let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
 highlight Pmenu ctermbg=lightblue ctermfg=white
 
 inoremap jk <Esc>
+map ff :Flisttoggle <CR>
