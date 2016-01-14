@@ -8,6 +8,7 @@ set softtabstop=4
 set tabstop=8
 set autoindent
 set smartindent
+set nu
 
 " enable php complete
 autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
