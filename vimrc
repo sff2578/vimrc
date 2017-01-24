@@ -17,6 +17,11 @@ autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
 " set completeopt=longest,menuone
 let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
 
+" New split window is n columns wide.
+" commented out because is not working
+let g:bufExplorerSplitVertSize=50
+let g:bufExplorerSplitHorzSize=10
+
 " complete color
 highlight Pmenu ctermbg=lightblue ctermfg=white
 
